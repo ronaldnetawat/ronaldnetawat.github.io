@@ -142,6 +142,17 @@ article {
     font-family: Menlo, Monaco, 'Courier New', monospace;
 }
 
+article h2 {
+    color: #f92672;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+article p {
+    color: white;
+}
+
 article h2 a {
     color: #f92672;
     text-decoration: none;
@@ -160,6 +171,41 @@ article p a {
 
 article p a:hover {
     text-decoration: underline;
+}
+
+h3 {
+    color: #f92672;
+    text-align: left;
+    margin-right: 700px;
+}
+
+h3 a {
+    color: #f92672;
+    text-decoration: none;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+h3 a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#secondh3 {
+    text-align: left;
+    margin-right: 50px;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+#secondh3 a {
+    text-align: left;
+    margin-right: 50px;
+    color: #f92672;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+#secondh3 a:hover {
+    color: #ffffff;
+    cursor: pointer;
 }
 
 #askResume {
