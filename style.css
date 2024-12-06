@@ -15,7 +15,7 @@ body {
 }
 
 .intro-container img {
-    margin-top: 20px;  /* align with text */
+    margin-top: 10px;  /* align with text */
     order: 0;  /* puts image on the right */
     gap: 100px;
     margin-right: 10px;
@@ -23,6 +23,15 @@ body {
 
 .intro-container p {
     margin: 10px 0 !important;  /* override inline styles */
+}
+
+.intro-container a {
+    color: cyan;
+    text-decoration: none;
+}
+
+.intro-container a:hover {
+    color: white;
 }
 
 .monokai-grey {
@@ -57,7 +66,7 @@ header {
 
 #name a {
     color: #f92672;
-    margin-left: 30px;
+    margin-left: 70px;
     font-family: Menlo, Monaco, 'Courier New', monospace;
     font-size: 26px;
     cursor: pointer;
@@ -90,13 +99,13 @@ main {
 }
 
 h3 {
-    color: cyan;
+    color: #f92672;
     text-align: left;
     margin-right: 700px;
 }
 
 h3 a {
-    color: cyan;
+    color: #f92672;
     text-decoration: none;
 }
 
@@ -120,7 +129,7 @@ h3 a:hover {
 
 #date {
     font-size: 15px;
-    color: grey;
+    color: #ffffff;
 }
 
 article {
@@ -128,24 +137,24 @@ article {
     margin-bottom: 20px;
     display: block;
     text-align: left;
-    color: rgb(137, 133, 133);
+    color: rgb(125, 125, 125);
     font-size: 20px;
     font-family: Menlo, Monaco, 'Courier New', monospace;
 }
 
 article h2 a {
-    color: rgb(255, 255, 255);
+    color: #f92672;
     text-decoration: none;
     font-size: 25px;
     font-family: Menlo, Monaco, 'Courier New', monospace;
 }
 
 article h2 a:hover {
-    color: cyan;
+    color: #ffffff;
 }
 
 article p a {
-    color: cyan;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -153,5 +162,15 @@ article p a:hover {
     text-decoration: underline;
 }
 
+#askResume {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;  /* space between image and text */
+    max-width: 600px;  /* adjust as needed */
+    margin: 0 auto;
+}
 
-
+#askResume article p {
+    color: #ffffff;
+    text-decoration: none;
+}
