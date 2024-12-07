@@ -26,7 +26,7 @@ body {
 }
 
 .intro-container p {
-    margin: 10px 0 !important;  /* override inline styles */
+    margin: 70px 0 !important;  /* override inline styles */
 }
 
 .intro-container a {
