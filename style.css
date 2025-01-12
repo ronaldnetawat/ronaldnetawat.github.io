@@ -149,7 +149,7 @@ article {
     margin-bottom: 20px;
     display: block;
     text-align: left;
-    color: rgb(125, 125, 125);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: Menlo, Monaco, 'Courier New', monospace;
 }
@@ -177,7 +177,7 @@ article h2 a:hover {
 }
 
 article p a {
-    color: #ffffff;
+    color: #f92672;
     text-decoration: none;
 }
 
