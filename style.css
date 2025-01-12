@@ -263,12 +263,19 @@ h3 a:hover {
     }
 
     .intro-container img {
+
         margin-top: 10px;  /* align with text */
         order: 0;  /* puts image on the right */
         gap: 100px;
         margin-right: 10px;
-        max-width: 25%;
+        max-width: none;
         height: 25%;
+    }
+    .paragraph-container, /* if you have one */
+    article {
+        width: 100%; /* or 95% for even wider */
+        margin: 0 auto;
+        font-size: 15px;
     }
 
     main {
